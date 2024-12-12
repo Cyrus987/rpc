@@ -21,9 +21,13 @@ public class sixDevinneyCyrus implements Player
      *              "s" - scissors
      *              anything else - forfeit the turn
      */
+    private static String plan = "paper then all rock";
     public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore)
     {
-        return " ";
+        if(myMoves.length == 0)
+        return "p";
+        else {
+        return "r";}
     }
     /**
      * Returns the name of the player
